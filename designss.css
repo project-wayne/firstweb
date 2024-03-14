@@ -1,0 +1,253 @@
+
+/* Style Sheet // Jan Whane ------------------ 03/13/24 ----------------------------*/
+
+
+.h1txt{
+   /* border: 1px solid #6b530c85;*/
+    color: rgba(189, 230, 222, 0.932);
+   /* border-radius: 10px; 
+    padding: 11px; 
+     display: inline-block
+    position: absolute;
+    top: 0;
+    left: 15px;
+    */
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    font-weight: bold;
+    
+}
+
+.navbar {
+    
+    border-top: 1px solid rgba(122, 155, 117, 0.932);
+    border-bottom: 1px solid rgba(122, 155, 117, 0.932);
+    padding-bottom: 20px;
+    padding-top: 15px;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    
+}
+
+.navbar li {
+    display: inline-block; 
+    width: 150px; 
+}
+
+.navbar li a {
+    display: block;
+    color: white; 
+    text-align: center;
+    padding: 14px 0; 
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    border-right: 1px solid rgba(122, 155, 117, 0.932) ;
+}
+
+.navbar li a:hover {
+    background-color: transparent;
+    /*background-color: #986206d6; */
+    color: rgba(143, 171, 213, 0.989); 
+}
+
+
+.menu-button {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    cursor: pointer;
+    top: 40px;
+    bottom: 10px;
+    left: 40px;  
+    background-color: transparent; 
+    color: #fff; 
+    border: none; 
+    padding: 1px; 
+    cursor: pointer; 
+    font-size: 10px; 
+}
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: #e9dddddb;
+    position: absolute;
+ 
+}
+
+.line:nth-child(1) {
+    top: 2px;
+}
+
+.line:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.line:nth-child(3) {
+    bottom: 0;
+}
+
+
+
+.menu-text {
+    position: absolute;
+    top: 70px; 
+    left: 41px; 
+    color: white; 
+    font-size: 13px; 
+    font-family: Raleway, sans-serif;
+    cursor: pointer;
+}
+
+
+.search-button {
+    background-color: transparent;
+    color: #fff; 
+    border: none; 
+    padding: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    position: absolute; 
+    top: 35px; 
+    right: 27px; 
+}
+
+.search-button i {
+    font-size: 25px; 
+    vertical-align: middle; 
+    margin-left: 5px; 
+   
+}
+
+.button-container {
+    position: relative; 
+}
+
+.search-text{
+    display: block;
+    font-size: 13px;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+.social-media{
+    color: rgba(55, 147, 116, 0.948);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: Open Sans, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.text-one{
+    
+    text-align: center;
+
+}
+
+.text-1{
+    color: white;
+    font-family: Open Sans, sans-serif;
+    font-size: 40px;
+}
+
+.with{
+
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 350px;
+    
+}
+
+.guitar-series{
+    color: white;
+    font-family: Open Sans, sans-serif;   
+    font-size: 35px; 
+    /*
+    position: absolute;
+    left: 685px;
+    */
+    
+}
+
+.rg-prem-pics{
+    position: relative;
+    text-align: center;
+
+}
+
+.rg_axionlabel{
+    width: 800px;
+    border: 1px solid rgb(240, 180, 180);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.rg-axionlabel_txt{
+    color: white;
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    top: 500px;
+    right: 1040px;
+    font-size: 20px;
+}
+
+.genesis{
+
+    width: 800px;
+    border: 1px solid rgb(240, 180, 180);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+
+}
+
+.rg-genesiscollection_txt{
+
+    color: white;
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    top: 860px;
+    right: 975px;
+    font-size: 20px;
+}
+
+
+.ironlabel{
+    width: 800px;
+    border: 1px solid rgb(240, 180, 180);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.rg-ironlabel_txt{
+
+    color: white;
+    font-family: Open Sans, sans-serif;
+    position: absolute;
+    top: 1225px;
+    right: 1055px;
+    font-size: 20px;
+
+}
+
+
+body{
+    background-image: url("bgguitar.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
